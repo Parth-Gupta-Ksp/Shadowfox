@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parth Gupta - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5588ccd07c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="imgs/logo3.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span>Parth</span><br><span>Gupta</span></h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ============================About======================================== -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="imgs/pic-in-frame.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p class="text">I'm <span class="bold-color-name">Parth Gupta</span>, a passionate Full Stack Developer who loves building clean and scalable applications. I bring ideas to life with clean, efficient code and intuitive design. I enjoy solving problems, exploring new technologies, and turning ideas into real-world projects.
+
+                    My tech stack includes <span class="bold-skills">Python, C, HTML, CSS, Javascript</span> and more. 
+                        
+                    I also love diving into Electronics and Communication Engineering (ECE) and working on exciting IoT projects that blend both hardware and software.
+                    <br>
+                    When I’m not coding, you’ll probably find me playing chess, traveling to discover new places, or exploring new hobbies. I’m constantly learning, pushing myself to grow, and looking for ways to turn ideas into real, functional projects..</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Proficient in HTML, CSS, and JavaScript for building responsive and user-friendly websites.</li>
+                            <li><span>Programming Languages</span><br>Strong in Python and C, applying them to software development and problem-solving.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2025 - Current</span><br>Internship at Shadowfox</li>
+                            <li><span>2024 - 2025</span><br>Internship at Codsoft</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 - 2027</span><br>Btech from Birla Institute of Applied Science</li>
+                            <li><span>2011 - 2023</span><br>Schooling from KV Kashipur</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- =============================Services====================================== -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>Web Development</h2>
+                <p>I build responsive and user-friendly websites with a focus on clean and efficient code. Whether it’s front-end or full-stack development, I turn your ideas into functional digital experiences.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Python Development</h2>
+                <p>With Python, I create powerful applications, automate tasks, and build robust backends. I focus on writing clean, maintainable code to solve real-world problems effectively.</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-microchip"></i>
+                <h2>IoT & ECE Projects</h2>
+                <p>I work on embedded systems and IoT projects, integrating hardware with software to create smart, connected solutions. I enjoy exploring new technologies in the field of Electronics and Communication Engineering.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ==============================Projects====================================== -->
+<div id="projects">
+    <div class="container">
+        <h1 class="subtitle">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="imgs/work-1.png">
+                <div class="layer">
+                    <h3>Exciting Projects in Progress</h3>
+                    <p>Description of project.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/work-2.png">
+                <div class="layer">
+                    <h3>Exciting Projects in Progress</h3>
+                    <p>Description of project.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="imgs/work-3.png">
+                <div class="layer">
+                    <h3>Exciting Projects in Progress</h3>
+                    <p>Description of project.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ============================Contact========================================== -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>parthgupta90870.ksp@gmail.com</p>    
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/parthguptaksp/"><i class="fa-brands fa-square-linkedin"></i></a>
+                    <a href="https://github.com/Parth-Gupta-Ksp"><i class="fa-brands fa-square-github"></i></a>
+
+                </div>
+                <a href="imgs/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="text" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Made by Parth</p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab"); 
+        }
+    }
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzdUjho0cRMtfogLqtiTUik8gcSugO7vy4vf1IGQcHs-YPrG2-rYSt5cgphabHlOCJYDA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message send successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
