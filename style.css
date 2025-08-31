@@ -17,9 +17,10 @@ body{
 #header{
     height: 100vh;
     width: 100%;
-    background-image: url(imgs/lap-background.png);
+    background: #080808;
+    /* background-image: url(imgs/lap-background.png);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
 }
 
 .container{
@@ -66,10 +67,22 @@ nav ul li a:hover::after{
     
 }
 
+.home-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 .header-text{
     margin-top: 20%;
     font-size: 30px;
+    flex-direction: column;
+    flex-basis: 35%;
+}
 
+.home-pic{
+    margin-top: 15%;
+    flex-basis: 35%;
 }
 
 .header-text h1{
@@ -390,18 +403,23 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width:1800px){
-    #header{
+    /* #header{
         background-image: url(imgs/mid-screen.png);
-    }
+    } */
 }
 
 @media only screen and (max-width: 600px){
-    #header{
+    /* #header{
         background-image: url(imgs/phone-background.png);
-    }
+    } */
     .header-text{
         margin-top: 75%;
         font-size: 16px;
+    }
+    .home-pic{
+        margin-top: 75%;
+        width: 50px;
+
     }
     .header-text h1{
         font-size: 30px;
